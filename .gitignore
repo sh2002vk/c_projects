@@ -1,2 +1,3 @@
 # Ignore build artifacts
 cmake-build-debug/
+*.exe
