@@ -21,7 +21,7 @@ goes as deeper from there.
 
 ### Shell from scratch
 [*Project*](https://github.com/sh2002vk/c_projects/blob/main/shell.c) \
-A simple, unix-based shell with the following command schema: \
+A simple, unix-based shell with the following command schema: 
 | TYPE    | OPERATION | ARGS       | NOTES                             |
 | ------- | --------- | ---------- | --------------------------------- |
 | file    | list      | NONE       | List all files                    |
