@@ -22,16 +22,16 @@ goes as deeper from there.
 ### Shell from scratch
 [*Project*](https://github.com/sh2002vk/c_projects/blob/main/shell.c) \
 A simple, unix-based shell with the following command schema: 
-| TYPE    | OPERATION | ARGS       | NOTES                             |
-| ------- | --------- | ---------- | --------------------------------- |
-| file    | list      | NONE       | List all files                    |
-| file    | print     | NONE       | Print the current path            |
-| file    | enter     | directory  | Go into a directory               |
-| file    | make      | filename   | Make a new file in given directory|
-| system  | status    | NONE       | Get current running processes     |
-| system  | resources | NONE       | Current resource use              |
-| system  | info      | NONE       | Returns OS and version            |
-| system  | free      | NONE       | Free disk space left              |
+| TYPE    | OPERATION | ARGS       | NOTES                             | IMPLEMENTED |
+| ------- | --------- | ---------- | --------------------------------- | ----------- |
+| file    | list      | NONE       | List all files                    | YES         |
+| file    | print     | NONE       | Print the current path            | YES         |
+| file    | enter     | directory  | Go into a directory               | YES         |
+| file    | make      | filename   | Make a new file in given directory| NO          |
+| system  | status    | NONE       | Get current running processes     | NO          |
+| system  | resources | NONE       | Current resource use              | NO          |
+| system  | info      | NONE       | Returns OS and version            | NO          |
+| system  | free      | NONE       | Free disk space left              | NO          |
 
 Most of the actual operations are yet to be implemented. I will also add process creation and destruction.  
 
