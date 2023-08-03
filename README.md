@@ -10,7 +10,7 @@ Refer to the project list at the end of the readme for details.
 ### Command line calculator
 [*Project*](https://github.com/sh2002vk/c_projects/blob/main/calculator.c) \
 Simple program in C that carries out addition, subtraction, multiplication and 
-division from command line arguments. Error checking is implemented, but maybe it can be made more robust.
+division from command line arguments. Error checking is implemented, but maybe it can be made more robust. \
 Expected format: *X OPERAND Y*
 
 ### Directory Navigator
